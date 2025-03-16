@@ -116,3 +116,39 @@ button:hover {
         max-width: 250px;
     }
 }
+
+a {
+    color: #D9925C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    color: #BF7F4B;
+    border-bottom: 2px solid #BF7F4B;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os links */
+    margin-top: 20px; /* Espaço acima dos links */
+}
+
+.links a {
+    color: #D9925C;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    padding: 5px 10px; /* Adiciona espaço interno ao redor dos links */
+}
+
+.links a:hover {
+    color: #BF7F4B;
+    border-bottom: 2px solid #BF7F4B;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
